@@ -1,0 +1,25 @@
+
+#----------------------------- Configurations for Server related options --------------------------------#
+server:
+  port: 8081
+
+
+#----------------------------- Configurations for USSD related options --------------------------------#
+ussd:
+  baseCode: "*572#"
+  menu:
+    goBackOption: 0
+
+
+#---------------------- Configurations for Spring related and  Datasource options ----------------------#
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/demo
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console.enabled: true
+

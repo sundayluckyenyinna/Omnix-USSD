@@ -1,0 +1,3 @@
+ussd:
+  option:
+    invalidSelection: You made an invalid selection.
